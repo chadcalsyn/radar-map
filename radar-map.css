@@ -1,0 +1,44 @@
+/*************************************************************************************
+    radar-map.css
+    
+    DESCRIPTION
+    Styles for Google Maps weather radar example
+    
+    AUTHOR      Chad M. Calsyn
+    CREATED     9/7/2016
+    UPDATED     9/7/2016
+    VERSION     1.0
+    
+*************************************************************************************/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+#radar-control {
+    background:black;
+    border:1px solid white;
+    color:white;
+    cursor:pointer;
+    padding:10px;
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+
+#time-stamp {
+    background:white;
+    bottom:15px;
+    color:black;
+    font:8pt Arial, Helvetica, helv;
+    padding:4px;
+    position:absolute;
+    right:50px;
+    width:200px;
+}
